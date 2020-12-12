@@ -39,7 +39,7 @@ and validation data of 1h of sound.
 
 I prepared dataset by by creating data/Train and data/Test folders in a location separate from code folder. Then I create the following structure as in the image below:
 
-<img src="img/structure_folder.png" alt="data folder structure" title="data folder structure" />
+<img src="https://github.com/vbelz/Speech-enhancement/raw/master/img/structure_folder.png" alt="data folder structure" title="data folder structure" />
 
 I moved my noise audio files into `noise_dir` directory and clean voice files into `voice_dir`.
 

@@ -4,10 +4,6 @@
 ## Introduction
 **This project aims at building a speech enhancement module to minimize environmental noise.**
 
-<img src="img/denoise_10classes.gif" alt="Spectrogram denoising" title="Speech enhancement"/>
-
-
-
 Audios can be represented in different ways as raw time series to time-frequency decompositions.
 Among time-frequency decompositions, Spectrograms is a useful representation for audio processing. They consist in 2D images representing sequences of Short Time Fourier Transform (STFT) with time and frequency as axes, and brightness representing the strength of a frequency component at each time frame. In such they appear a natural domain to apply the CNNS architectures for images directly to sound. Between magnitude and phase spectrograms, magnitude spectrograms contain most the structure of the signal. Phase spectrograms appear to show only little temporal and spectral regularities.
 

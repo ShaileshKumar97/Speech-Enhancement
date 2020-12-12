@@ -41,7 +41,7 @@ I prepared dataset by by creating data/Train and data/Test folders in a location
 
 <img src="https://github.com/vbelz/Speech-enhancement/raw/master/img/structure_folder.png" alt="data folder structure" title="data folder structure" />
 
-I moved my noise audio files into `noise_dir` directory and clean voice files into `voice_dir`.
+I moved my noise audio files into `noise_dir` directory and clean voice files into `voice_dir` after creating 3 more directory to make sure I have enough computation power, rest is explained in notebook.
 
 I set nb_samples=50.
 

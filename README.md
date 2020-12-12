@@ -64,15 +64,13 @@ The encoder is made of 10 convolutional layers (with LeakyReLU, maxpooling and d
 
 Model is compiled with Adam optimizer and the loss function used is the Huber loss.
 
-Training on a modern GPU takes a couple of hours.
-
 I tried `training_from_scratch = True` but it takes time and the prediction from model is not such good so I used `training_from_scratch = False` by taking pretrained weights from [this repo](https://github.com/vbelz/Speech-enhancement/blob/master/weights/model_unet.h5).
 
 The number of epochs and the batch size for training are specified by `epochs` and `batch_size`. Best weights are automatically saved during training as `model_unet.h5`.
 
 At the end, I obtained a training loss of 0.0048 and a validation loss of 0.00579. Below a loss graph made in one of the trainings.
 
-<img src="img/loss_training.png" alt="loss training" title="loss training" />
+<img src="https://github.com/ShaileshKumar97/Speech-Enhancement/blob/main/notebook/loss_training.png?raw=true" alt="loss training" title="loss training" />
 
 ## Prediction pipeline
 
@@ -88,9 +86,9 @@ Here is the prediction from the model:
 
 > Example:
 
-[Input example mix](https://vbelz.github.io/Speech-enhancement/demo_data/validation/noisy_voice_alarm39.wav)
+[Input example mix](https://github.com/ShaileshKumar97/Speech-Enhancement/blob/main/demo/input/noisy_voice_long_t2.wav)
 
-[Predicted output example mix](https://vbelz.github.io/Speech-enhancement/demo_data/validation/voice_pred_alarm39.wav)
+[Predicted output example mix](https://github.com/ShaileshKumar97/Speech-Enhancement/blob/main/demo/prediction/denoise_t2.wav)
 
 
 ## References

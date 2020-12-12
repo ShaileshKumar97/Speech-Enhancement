@@ -49,7 +49,7 @@ Then run `create_data()` function. This will randomly blend some clean voices fr
 
 Datasets to be used for training will be magnitude spectrograms of noisy voices and magnitude spectrograms of clean voices.
 
-`create_data()` takes 46 minutes for 5000 samples of clean-voice and 1900 samples of noise.
+`create_data()` takes around 3 hours for 5000 samples of clean-voice and 1900 samples of noise to process while it takes 46 minutes for 2600 samples of clean-voice and 300 samples of noise. 
 
 
 ## Training Pipeline

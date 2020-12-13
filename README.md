@@ -64,7 +64,7 @@ The encoder is made of 10 convolutional layers (with LeakyReLU, maxpooling and d
 
 Model is compiled with Adam optimizer and the loss function used is the Huber loss.
 
-I tried `training_from_scratch = True` but it takes time and the prediction from model is not such good so I used `training_from_scratch = False` by taking pretrained weights from [this repo](https://github.com/vbelz/Speech-enhancement/blob/master/weights/model_unet.h5).
+I tried `training_from_scratch = True` but it takes lot of time to create data to feed in to training and the prediction from model is poor due to not enough data and computing resources so I used `training_from_scratch = False` by taking pretrained weights from [this repo](https://github.com/vbelz/Speech-enhancement/blob/master/weights/model_unet.h5).
 
 The number of epochs and the batch size for training are specified by `epochs` and `batch_size`. Best weights are automatically saved during training as `model_unet.h5`.
 
